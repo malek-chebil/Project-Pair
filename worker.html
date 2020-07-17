@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Worker signe in</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<style type="text/css">
+		body{
+	background-image: url(https://s3.amazonaws.com/fjwp/blog/wp-content/uploads/2019/11/29113952/relax-job-interview.png);
+	background-size: cover;
+  background-repeat: no-repeat;
+}
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: block;
+  padding: 20px;
+  position: relative;
+
+  
+}
+.border{
+	height: auto;
+    width: 300px;
+    position: relative;
+    right: -800px;
+    bottom: 4px;
+    }
+    .fName{
+    	width: auto;
+        height: 30px;
+    }
+    h2{
+    	position: relative;
+    right: -820px;
+    top: 29px;
+
+    }
+</style>
+	
+</head>
+<body>
+ <div class="topnav">
+  <a class="active" href="main Page.html">Home</a>
+  </div>
+	<h2>Required Informations :</h2>
+
+<div class="border">
+  <form>
+    <label class="fName" for="fname">First Name</label><br>
+    <input id="first" class="fName" type="text"  name="firstname"  placeholder="Your name.." required><br>
+
+    <label class='fName' for="lname">Last Name</label><br>
+    <input id="last" class='fName' type="text"  name="lastname" placeholder="Your last name.." required><br>
+    <label class='fName' for="email">Your E-mail</label><br>
+    <input id="mail" class='fName' type="text"  name="email" placeholder="Your E-mail.." required><br>
+    <label class='fName' for="number">Phone Number</label><br>
+    <input id="number" class='fName' type="text"  name="number" placeholder="Your phone number.." required><br>
+
+    <label class="fName" for="State">State</label><br>
+    <select id="State"  class="fName" name="State"><br>
+    	<option value="">---</option>
+      <option value="Tunis">Tunis</option>
+      <option value="Bizerte">Bizerte</option>
+      <option value="Nabeul">Nabeul</option>
+      <option value="Sousse">Sousse</option>
+      <option value="Kairawen">Kairawen</option>
+    </select><br>
+    <label class="fName" for="field">Field Of Your Activitie</label><br>
+    <select id="field" class="fName" name="field"><br>
+    	<option value="">---</option>
+      <option value="Web development">Web development</option>
+      <option value="Marketing">Marketing</option>
+      <option value="Communication">Communication</option>
+      <option value="Accounting">Accounting</option>
+    </select >
+    
+   <input type="submit" value="Submit" id="submit1">
+  </form>
+</div>
+<script type="text/javascript" src='js.js'></script>
+</body>
+</html>
